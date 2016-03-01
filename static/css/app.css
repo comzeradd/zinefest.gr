@@ -147,15 +147,19 @@ h4 {
     text-decoration: none;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav li > a {
     color: #000;
     font-weight: bold;
     font-size: 1.2em;
     text-decoration: none;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav li > a:hover {
     color: #2F9BDE;
+}
+
+.dropdown-menu {
+    min-width: 80px;
 }
 
 #content {
