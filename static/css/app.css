@@ -70,10 +70,12 @@ body {
     font-size: 14px;
     line-height: 1.4;
     font-family: 'ClearSans';
+    background-color: #C9D6DE;
 }
 
 a {
-    color: #2597AC;
+    color: #000;
+    text-decoration: underline;
 }
 
 .row {
@@ -117,7 +119,7 @@ h4 {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #2597AC;
+    color: #2F9BDE;
 }
 
 .page-header p {
@@ -142,12 +144,18 @@ h4 {
     color: black;
     font-weight: bold;
     font-size: 1.2em;
+    text-decoration: none;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #2597AC;
+    color: #000;
     font-weight: bold;
     font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #2F9BDE;
 }
 
 #content {
