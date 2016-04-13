@@ -210,6 +210,13 @@ h4 {
     text-align: center;
 }
 
+.poster {
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 767px) {
     #content {
         padding: 0 15px;
