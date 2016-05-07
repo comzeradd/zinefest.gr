@@ -8,6 +8,9 @@ panopticon.config(['$routeProvider',
             when('/participate', {
                 templateUrl: 'partials/participate.html'
             }).
+            when('/brochure', {
+                templateUrl: 'partials/brochure.html'
+            }).
             when('/2013', {
                 templateUrl: 'partials/2013.html'
             }).
