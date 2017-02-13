@@ -23,8 +23,11 @@ panopticon.config(['$routeProvider',
             when('/posters', {
                 templateUrl: 'partials/posters.html'
             }).
-            otherwise({
+            when('/about', {
                 templateUrl: 'partials/about.html'
+            }).
+            otherwise({
+                templateUrl: 'partials/2017.html'
             });
     }
 ]);
