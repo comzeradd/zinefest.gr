@@ -5,9 +5,6 @@ var panopticon = angular.module('zinefest', [
 panopticon.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
-            when('/participate', {
-                templateUrl: 'partials/participate.html'
-            }).
             when('/brochure', {
                 templateUrl: 'partials/brochure.html'
             }).
