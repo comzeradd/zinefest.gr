@@ -70,7 +70,7 @@ body {
     font-size: 14px;
     line-height: 1.4;
     font-family: 'ClearSans';
-    background-color: #C9D6DE;
+    background-color: #C9CADE;
 }
 
 a {
@@ -140,8 +140,8 @@ h4 {
 }
 
 .logo {
-    margin-left: 15px;
     display: block;
+    max-width: 100px;
 }
 
 .navbar-default {
