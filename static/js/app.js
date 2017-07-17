@@ -14,6 +14,9 @@ panopticon.config(['$routeProvider',
             when('/2016', {
                 templateUrl: 'partials/2016.html'
             }).
+            when('/2017', {
+                templateUrl: 'partials/2017.html'
+            }).
             when('/posters', {
                 templateUrl: 'partials/posters.html'
             }).
@@ -27,7 +30,7 @@ panopticon.config(['$routeProvider',
                 templateUrl: 'partials/upyourass.html'
             }).
             otherwise({
-                templateUrl: 'partials/2017.html'
+                templateUrl: 'partials/about.html'
             });
     }
 ]);
