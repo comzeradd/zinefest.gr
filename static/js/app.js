@@ -33,7 +33,7 @@ panopticon.config(['$routeProvider',
                 templateUrl: 'partials/upyourass.html'
             }).
             otherwise({
-                templateUrl: 'partials/2018.html'
+                templateUrl: 'partials/about.html'
             });
     }
 ]);

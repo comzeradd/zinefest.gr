@@ -209,8 +209,15 @@ h4 {
     text-align: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:15px;
+    grid-row-gap: 15px;
+}
+
 .poster {
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 .poster-inline {
